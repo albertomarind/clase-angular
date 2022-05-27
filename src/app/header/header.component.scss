@@ -1,0 +1,48 @@
+:host {
+    display: block;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    display: inline-block;
+}
+
+.header-search-input {
+    display: inline-block;
+}
+
+.header-wrapper-buttons {
+    display: inline-flex;
+}
+
+.header-action-button {
+    // margin-right:4px;
+    // margin-left:4px;
+    //margin:0 4px;
+    margin: 0 4px 0 4px;
+    background: transparent;
+    border: 1px solid gray;
+    padding: 4px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.header-action-button:last-child {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    font-size: 10px;
+    background-color: lightcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    background-color: gray;
+}

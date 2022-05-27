@@ -1,0 +1,53 @@
+.card { 
+    display: inline-block;
+    max-width: 260px;
+    margin:0 4px;
+
+	.card-header { 
+        position: relative;
+
+		.card-image { 
+            display: inline-block;
+            width: 100%;
+		}
+
+        .card-time{
+            color: white;
+            position: absolute;
+            right: 8px;
+            bottom: 8px;
+            font-weight: 700;
+            font-size: 12px;
+        }
+
+        .card-time.trending{
+            color:red;
+        }
+	}
+
+	.card-content { 
+
+		.card-user-image { 
+
+		}
+
+		.card-title { 
+
+		}
+	}
+
+	.card-footer { 
+
+		.card-channel { 
+
+		}
+
+		.card-views { 
+
+		}
+
+		.card-date { 
+
+		}
+	}
+}

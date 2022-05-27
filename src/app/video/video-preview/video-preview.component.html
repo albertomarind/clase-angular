@@ -1,0 +1,15 @@
+<div class="card">
+    <div class="card-header">
+        <img class="card-image" [src]="image" alt="">
+        <span class="card-time {{views>0?'trending':''}}">{{timer}}</span>
+    </div>
+    <div class="card-content">
+        <img class="card-user-image" >
+        <span class="card-title">{{title}}</span>
+    </div>
+    <div class="card-footer">
+        <span class="card-channel">{{channel}}</span>
+        <span class="card-views">{{views}}</span>
+        <span class="card-date">{{date}}</span>
+    </div>
+</div>

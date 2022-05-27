@@ -1,0 +1,7 @@
+<p>content works!</p>
+<button (click)="agregarCard($event)">Agregar card</button>
+<div>
+    <app-video-preview *ngFor="let card of cards" image="{{card.image}}" [channel]="card.channel" [timer]="card.timer"
+        [title]="card.title" [views]="card.views" [date]="card.date"></app-video-preview>
+
+</div>
